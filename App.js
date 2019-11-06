@@ -119,7 +119,6 @@ const styles = StyleSheet.create({
   text: {
     textAlign: 'center',
     fontSize: 22,
-    fontFamily: 'Roboto',
     padding: 5,
   },
   capture: {
