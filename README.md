@@ -1,6 +1,7 @@
 ## Dev Samurai - React Native Tutorials: Usando a Câmera do Celular
 
 ### Sobre
+
 Esse projeto foi desenvolvido como exemplo para a série de tutoriais sobre React Native da Dev Samurai.
 
 O projeto consiste em uma aplicação simples que permite a captura de fotos através da câmera do celular utilizando a lib react-native-camera e a visualização da foto tirada.
@@ -9,6 +10,8 @@ O foco principal é na instalação, configuração e utilização básica da c�
 
 Então essa aplicação é apenas uma demo para ilustrar o conceito, você pode acompanhar o tutorial completo em:
 (<b>ADICIONAR O LINK DO TUTORIAL</b>)
+
+Ficaremos felizes em ter você em nossa comunidade no Discord:
 
 ## Créditos
 
