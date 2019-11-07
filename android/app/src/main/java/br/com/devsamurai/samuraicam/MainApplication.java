@@ -1,4 +1,4 @@
-package com.reactnativecameraexample;
+package br.com.devsamurai.samuraicam;
 
 import android.app.Application;
 import android.content.Context;

@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.reactnativecameraexample"
+        applicationId "br.com.devsamurai.samuraicam"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'ReactNativeCameraExample' do
-  # Pods for ReactNativeCameraExample
+target 'SamuraiCam' do
+  # Pods for SamuraiCam
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -38,7 +38,7 @@ target 'ReactNativeCameraExample' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'ReactNativeCameraExampleTests' do
+  target 'SamuraiCamTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -46,10 +46,10 @@ target 'ReactNativeCameraExample' do
   use_native_modules!
 end
 
-target 'ReactNativeCameraExample-tvOS' do
-  # Pods for ReactNativeCameraExample-tvOS
+target 'SamuraiCam-tvOS' do
+  # Pods for SamuraiCam-tvOS
 
-  target 'ReactNativeCameraExample-tvOSTests' do
+  target 'SamuraiCam-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

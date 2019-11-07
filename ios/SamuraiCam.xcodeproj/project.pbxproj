@@ -6,7 +6,7 @@
 	objectVersion = 46;
 	objects = {
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ReactNativeCameraExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeCameraExampleTests.m */; };
+		00E356F31AD99517003FC87E /* SamuraiCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SamuraiCamTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -14,11 +14,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* ReactNativeCameraExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeCameraExampleTests.m */; };
-		468C68FB2C25D9FD8A1B7A69 /* libPods-ReactNativeCameraExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAAD1E73675C9EC863DFB54 /* libPods-ReactNativeCameraExample-tvOSTests.a */; };
-		6B215701A17B956045DADD6F /* libPods-ReactNativeCameraExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7178FA9C5A5E499DBC8087AD /* libPods-ReactNativeCameraExampleTests.a */; };
-		BA0BEF5146E169B42D617574 /* libPods-ReactNativeCameraExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDD2AE97CAD481C453ACB4 /* libPods-ReactNativeCameraExample.a */; };
-		DC4D0A7AFC62FCB5DAC10DE5 /* libPods-ReactNativeCameraExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0684FBD6FC816230AF114491 /* libPods-ReactNativeCameraExample-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* SamuraiCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SamuraiCamTests.m */; };
+		468C68FB2C25D9FD8A1B7A69 /* libPods-SamuraiCam-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAAD1E73675C9EC863DFB54 /* libPods-SamuraiCam-tvOSTests.a */; };
+		6B215701A17B956045DADD6F /* libPods-SamuraiCamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7178FA9C5A5E499DBC8087AD /* libPods-SamuraiCamTests.a */; };
+		BA0BEF5146E169B42D617574 /* libPods-SamuraiCam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFDD2AE97CAD481C453ACB4 /* libPods-SamuraiCam.a */; };
+		DC4D0A7AFC62FCB5DAC10DE5 /* libPods-SamuraiCam-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0684FBD6FC816230AF114491 /* libPods-SamuraiCam-tvOS.a */; };
 		25497DEDEE5F44C5AE7BBD45 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D475FDC255B430A9AC05C39 /* AntDesign.ttf */; };
 		D98E7E4D58F84ED289B55677 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2144657717C34CB8B4F062EC /* Entypo.ttf */; };
 		A39BB866C9794C23819A3BB4 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B8EB9AFDD784DB1B01476EA /* EvilIcons.ttf */; };
@@ -43,43 +43,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ReactNativeCameraExample;
+			remoteInfo = SamuraiCam;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "ReactNativeCameraExample-tvOS";
+			remoteInfo = "SamuraiCam-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* ReactNativeCameraExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeCameraExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* SamuraiCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamuraiCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ReactNativeCameraExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeCameraExampleTests.m; sourceTree = "<group>"; };
-		0684FBD6FC816230AF114491 /* libPods-ReactNativeCameraExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCameraExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FD3217F4C1D165FE95A916A /* Pods-ReactNativeCameraExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCameraExample.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCameraExample/Pods-ReactNativeCameraExample.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ReactNativeCameraExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeCameraExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeCameraExample/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ReactNativeCameraExample/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* SamuraiCamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamuraiCamTests.m; sourceTree = "<group>"; };
+		0684FBD6FC816230AF114491 /* libPods-SamuraiCam-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SamuraiCam-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD3217F4C1D165FE95A916A /* Pods-SamuraiCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamuraiCam.release.xcconfig"; path = "Target Support Files/Pods-SamuraiCam/Pods-SamuraiCam.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SamuraiCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamuraiCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SamuraiCam/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SamuraiCam/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeCameraExample/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeCameraExample/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeCameraExample/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* ReactNativeCameraExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativeCameraExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* ReactNativeCameraExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativeCameraExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		38054CAC714817B6A6A41A5C /* Pods-ReactNativeCameraExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCameraExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCameraExampleTests/Pods-ReactNativeCameraExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		485ED15AF90FF3D035FEC969 /* Pods-ReactNativeCameraExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCameraExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCameraExample-tvOSTests/Pods-ReactNativeCameraExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4FAAD1E73675C9EC863DFB54 /* libPods-ReactNativeCameraExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCameraExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		64F211B263E92DE288A4A4D2 /* Pods-ReactNativeCameraExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCameraExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCameraExample-tvOS/Pods-ReactNativeCameraExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		7178FA9C5A5E499DBC8087AD /* libPods-ReactNativeCameraExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCameraExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		916185C3E44A4C63E62E8DE8 /* Pods-ReactNativeCameraExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCameraExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCameraExampleTests/Pods-ReactNativeCameraExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		925AB7309F33D1CA68956D98 /* Pods-ReactNativeCameraExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCameraExample.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCameraExample/Pods-ReactNativeCameraExample.debug.xcconfig"; sourceTree = "<group>"; };
-		C70C12E2DA432C3598053017 /* Pods-ReactNativeCameraExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCameraExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeCameraExample-tvOS/Pods-ReactNativeCameraExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		CEFDD2AE97CAD481C453ACB4 /* libPods-ReactNativeCameraExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeCameraExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8001F37B3C56E68E48559F6 /* Pods-ReactNativeCameraExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeCameraExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeCameraExample-tvOSTests/Pods-ReactNativeCameraExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SamuraiCam/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SamuraiCam/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SamuraiCam/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* SamuraiCam-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SamuraiCam-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* SamuraiCam-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SamuraiCam-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38054CAC714817B6A6A41A5C /* Pods-SamuraiCamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamuraiCamTests.release.xcconfig"; path = "Target Support Files/Pods-SamuraiCamTests/Pods-SamuraiCamTests.release.xcconfig"; sourceTree = "<group>"; };
+		485ED15AF90FF3D035FEC969 /* Pods-SamuraiCam-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamuraiCam-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SamuraiCam-tvOSTests/Pods-SamuraiCam-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FAAD1E73675C9EC863DFB54 /* libPods-SamuraiCam-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SamuraiCam-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F211B263E92DE288A4A4D2 /* Pods-SamuraiCam-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamuraiCam-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SamuraiCam-tvOS/Pods-SamuraiCam-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		7178FA9C5A5E499DBC8087AD /* libPods-SamuraiCamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SamuraiCamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		916185C3E44A4C63E62E8DE8 /* Pods-SamuraiCamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamuraiCamTests.debug.xcconfig"; path = "Target Support Files/Pods-SamuraiCamTests/Pods-SamuraiCamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		925AB7309F33D1CA68956D98 /* Pods-SamuraiCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamuraiCam.debug.xcconfig"; path = "Target Support Files/Pods-SamuraiCam/Pods-SamuraiCam.debug.xcconfig"; sourceTree = "<group>"; };
+		C70C12E2DA432C3598053017 /* Pods-SamuraiCam-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamuraiCam-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-SamuraiCam-tvOS/Pods-SamuraiCam-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CEFDD2AE97CAD481C453ACB4 /* libPods-SamuraiCam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SamuraiCam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8001F37B3C56E68E48559F6 /* Pods-SamuraiCam-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamuraiCam-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SamuraiCam-tvOSTests/Pods-SamuraiCam-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		4D475FDC255B430A9AC05C39 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
@@ -105,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B215701A17B956045DADD6F /* libPods-ReactNativeCameraExampleTests.a in Frameworks */,
+				6B215701A17B956045DADD6F /* libPods-SamuraiCamTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA0BEF5146E169B42D617574 /* libPods-ReactNativeCameraExample.a in Frameworks */,
+				BA0BEF5146E169B42D617574 /* libPods-SamuraiCam.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC4D0A7AFC62FCB5DAC10DE5 /* libPods-ReactNativeCameraExample-tvOS.a in Frameworks */,
+				DC4D0A7AFC62FCB5DAC10DE5 /* libPods-SamuraiCam-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,20 +129,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468C68FB2C25D9FD8A1B7A69 /* libPods-ReactNativeCameraExample-tvOSTests.a in Frameworks */,
+				468C68FB2C25D9FD8A1B7A69 /* libPods-SamuraiCam-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ReactNativeCameraExampleTests */ = {
+		00E356EF1AD99517003FC87E /* SamuraiCamTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ReactNativeCameraExampleTests.m */,
+				00E356F21AD99517003FC87E /* SamuraiCamTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ReactNativeCameraExampleTests;
+			path = SamuraiCamTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -153,7 +153,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ReactNativeCameraExample */ = {
+		13B07FAE1A68108700A75B9A /* SamuraiCam */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -164,7 +164,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ReactNativeCameraExample;
+			name = SamuraiCam;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -172,10 +172,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				CEFDD2AE97CAD481C453ACB4 /* libPods-ReactNativeCameraExample.a */,
-				0684FBD6FC816230AF114491 /* libPods-ReactNativeCameraExample-tvOS.a */,
-				4FAAD1E73675C9EC863DFB54 /* libPods-ReactNativeCameraExample-tvOSTests.a */,
-				7178FA9C5A5E499DBC8087AD /* libPods-ReactNativeCameraExampleTests.a */,
+				CEFDD2AE97CAD481C453ACB4 /* libPods-SamuraiCam.a */,
+				0684FBD6FC816230AF114491 /* libPods-SamuraiCam-tvOS.a */,
+				4FAAD1E73675C9EC863DFB54 /* libPods-SamuraiCam-tvOSTests.a */,
+				7178FA9C5A5E499DBC8087AD /* libPods-SamuraiCamTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,9 +190,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ReactNativeCameraExample */,
+				13B07FAE1A68108700A75B9A /* SamuraiCam */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ReactNativeCameraExampleTests */,
+				00E356EF1AD99517003FC87E /* SamuraiCamTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F626CEA448B9E3870C929341 /* Pods */,
@@ -206,10 +206,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ReactNativeCameraExample.app */,
-				00E356EE1AD99517003FC87E /* ReactNativeCameraExampleTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* ReactNativeCameraExample-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* ReactNativeCameraExample-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* SamuraiCam.app */,
+				00E356EE1AD99517003FC87E /* SamuraiCamTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* SamuraiCam-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* SamuraiCam-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,14 +217,14 @@
 		F626CEA448B9E3870C929341 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				925AB7309F33D1CA68956D98 /* Pods-ReactNativeCameraExample.debug.xcconfig */,
-				0FD3217F4C1D165FE95A916A /* Pods-ReactNativeCameraExample.release.xcconfig */,
-				C70C12E2DA432C3598053017 /* Pods-ReactNativeCameraExample-tvOS.debug.xcconfig */,
-				64F211B263E92DE288A4A4D2 /* Pods-ReactNativeCameraExample-tvOS.release.xcconfig */,
-				485ED15AF90FF3D035FEC969 /* Pods-ReactNativeCameraExample-tvOSTests.debug.xcconfig */,
-				E8001F37B3C56E68E48559F6 /* Pods-ReactNativeCameraExample-tvOSTests.release.xcconfig */,
-				916185C3E44A4C63E62E8DE8 /* Pods-ReactNativeCameraExampleTests.debug.xcconfig */,
-				38054CAC714817B6A6A41A5C /* Pods-ReactNativeCameraExampleTests.release.xcconfig */,
+				925AB7309F33D1CA68956D98 /* Pods-SamuraiCam.debug.xcconfig */,
+				0FD3217F4C1D165FE95A916A /* Pods-SamuraiCam.release.xcconfig */,
+				C70C12E2DA432C3598053017 /* Pods-SamuraiCam-tvOS.debug.xcconfig */,
+				64F211B263E92DE288A4A4D2 /* Pods-SamuraiCam-tvOS.release.xcconfig */,
+				485ED15AF90FF3D035FEC969 /* Pods-SamuraiCam-tvOSTests.debug.xcconfig */,
+				E8001F37B3C56E68E48559F6 /* Pods-SamuraiCam-tvOSTests.release.xcconfig */,
+				916185C3E44A4C63E62E8DE8 /* Pods-SamuraiCamTests.debug.xcconfig */,
+				38054CAC714817B6A6A41A5C /* Pods-SamuraiCamTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -257,9 +257,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ReactNativeCameraExampleTests */ = {
+		00E356ED1AD99517003FC87E /* SamuraiCamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeCameraExampleTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SamuraiCamTests" */;
 			buildPhases = (
 				5E53CFAE85CDDCF39A36D3D3 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -271,14 +271,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ReactNativeCameraExampleTests;
-			productName = ReactNativeCameraExampleTests;
-			productReference = 00E356EE1AD99517003FC87E /* ReactNativeCameraExampleTests.xctest */;
+			name = SamuraiCamTests;
+			productName = SamuraiCamTests;
+			productReference = 00E356EE1AD99517003FC87E /* SamuraiCamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ReactNativeCameraExample */ = {
+		13B07F861A680F5B00A75B9A /* SamuraiCam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeCameraExample" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SamuraiCam" */;
 			buildPhases = (
 				63B5A1ADDF92AFDEC7398386 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -291,14 +291,14 @@
 			);
 			dependencies = (
 			);
-			name = ReactNativeCameraExample;
-			productName = ReactNativeCameraExample;
-			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeCameraExample.app */;
+			name = SamuraiCam;
+			productName = SamuraiCam;
+			productReference = 13B07F961A680F5B00A75B9A /* SamuraiCam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* ReactNativeCameraExample-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* SamuraiCam-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeCameraExample-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SamuraiCam-tvOS" */;
 			buildPhases = (
 				5BF34A778AE921387E770269 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -311,14 +311,14 @@
 			);
 			dependencies = (
 			);
-			name = "ReactNativeCameraExample-tvOS";
-			productName = "ReactNativeCameraExample-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* ReactNativeCameraExample-tvOS.app */;
+			name = "SamuraiCam-tvOS";
+			productName = "SamuraiCam-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* SamuraiCam-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* ReactNativeCameraExample-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* SamuraiCam-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeCameraExample-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SamuraiCam-tvOSTests" */;
 			buildPhases = (
 				2D69B51B72775C34FC954054 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -330,9 +330,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "ReactNativeCameraExample-tvOSTests";
-			productName = "ReactNativeCameraExample-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* ReactNativeCameraExample-tvOSTests.xctest */;
+			name = "SamuraiCam-tvOSTests";
+			productName = "SamuraiCam-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* SamuraiCam-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -359,7 +359,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeCameraExample" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SamuraiCam" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -372,10 +372,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ReactNativeCameraExample */,
-				00E356ED1AD99517003FC87E /* ReactNativeCameraExampleTests */,
-				2D02E47A1E0B4A5D006451C7 /* ReactNativeCameraExample-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* ReactNativeCameraExample-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* SamuraiCam */,
+				00E356ED1AD99517003FC87E /* SamuraiCamTests */,
+				2D02E47A1E0B4A5D006451C7 /* SamuraiCam-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* SamuraiCam-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -474,7 +474,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeCameraExample-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SamuraiCam-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -496,7 +496,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeCameraExample-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SamuraiCam-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -518,7 +518,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeCameraExampleTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SamuraiCamTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -540,7 +540,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeCameraExample-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SamuraiCam-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -592,7 +592,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ReactNativeCameraExampleTests.m in Sources */,
+				00E356F31AD99517003FC87E /* SamuraiCamTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,7 +618,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* ReactNativeCameraExampleTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* SamuraiCamTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,12 +627,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ReactNativeCameraExample */;
+			target = 13B07F861A680F5B00A75B9A /* SamuraiCam */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* ReactNativeCameraExample-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* SamuraiCam-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -644,7 +644,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = ReactNativeCameraExample;
+			path = SamuraiCam;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -652,14 +652,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 916185C3E44A4C63E62E8DE8 /* Pods-ReactNativeCameraExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 916185C3E44A4C63E62E8DE8 /* Pods-SamuraiCamTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactNativeCameraExampleTests/Info.plist;
+				INFOPLIST_FILE = SamuraiCamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -669,17 +669,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeCameraExample.app/ReactNativeCameraExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamuraiCam.app/SamuraiCam";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38054CAC714817B6A6A41A5C /* Pods-ReactNativeCameraExampleTests.release.xcconfig */;
+			baseConfigurationReference = 38054CAC714817B6A6A41A5C /* Pods-SamuraiCamTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactNativeCameraExampleTests/Info.plist;
+				INFOPLIST_FILE = SamuraiCamTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -689,18 +689,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeCameraExample.app/ReactNativeCameraExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamuraiCam.app/SamuraiCam";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 925AB7309F33D1CA68956D98 /* Pods-ReactNativeCameraExample.debug.xcconfig */;
+			baseConfigurationReference = 925AB7309F33D1CA68956D98 /* Pods-SamuraiCam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = ReactNativeCameraExample/Info.plist;
+				INFOPLIST_FILE = SamuraiCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -708,18 +708,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeCameraExample;
+				PRODUCT_NAME = SamuraiCam;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FD3217F4C1D165FE95A916A /* Pods-ReactNativeCameraExample.release.xcconfig */;
+			baseConfigurationReference = 0FD3217F4C1D165FE95A916A /* Pods-SamuraiCam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = ReactNativeCameraExample/Info.plist;
+				INFOPLIST_FILE = SamuraiCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -727,14 +727,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeCameraExample;
+				PRODUCT_NAME = SamuraiCam;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C70C12E2DA432C3598053017 /* Pods-ReactNativeCameraExample-tvOS.debug.xcconfig */;
+			baseConfigurationReference = C70C12E2DA432C3598053017 /* Pods-SamuraiCam-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -745,14 +745,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeCameraExample-tvOS/Info.plist";
+				INFOPLIST_FILE = "SamuraiCam-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNativeCameraExample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.SamuraiCam-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -762,7 +762,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64F211B263E92DE288A4A4D2 /* Pods-ReactNativeCameraExample-tvOS.release.xcconfig */;
+			baseConfigurationReference = 64F211B263E92DE288A4A4D2 /* Pods-SamuraiCam-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -773,14 +773,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeCameraExample-tvOS/Info.plist";
+				INFOPLIST_FILE = "SamuraiCam-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNativeCameraExample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.SamuraiCam-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -790,7 +790,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 485ED15AF90FF3D035FEC969 /* Pods-ReactNativeCameraExample-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 485ED15AF90FF3D035FEC969 /* Pods-SamuraiCam-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -800,24 +800,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeCameraExample-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "SamuraiCam-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNativeCameraExample-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.SamuraiCam-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeCameraExample-tvOS.app/ReactNativeCameraExample-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamuraiCam-tvOS.app/SamuraiCam-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8001F37B3C56E68E48559F6 /* Pods-ReactNativeCameraExample-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = E8001F37B3C56E68E48559F6 /* Pods-SamuraiCam-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -827,17 +827,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "ReactNativeCameraExample-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "SamuraiCam-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.ReactNativeCameraExample-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.SamuraiCam-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeCameraExample-tvOS.app/ReactNativeCameraExample-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamuraiCam-tvOS.app/SamuraiCam-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -944,7 +944,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeCameraExampleTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SamuraiCamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -953,7 +953,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeCameraExample" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SamuraiCam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -962,7 +962,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeCameraExample-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SamuraiCam-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -971,7 +971,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ReactNativeCameraExample-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "SamuraiCam-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -980,7 +980,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeCameraExample" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SamuraiCam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
